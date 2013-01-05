@@ -20,7 +20,7 @@ Otherwise, first find your Sublime Text 2 packages directory, you can find this 
 
 Now either create a `Perv -  color themes` folder within this directory, and copy the contents of the github repository inside, or clone the repo using the GIT software within the packages directory :
 
-	gist clone https://github.com/FlavourSys/Perv-ColorScheme
+	git clone https://github.com/FlavourSys/Perv-ColorScheme "Perv - Color Scheme"
 
 Now simply use the `Color Schemes` option of your preferences menu to switch between themes & enjoy!
 
