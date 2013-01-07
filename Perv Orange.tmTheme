@@ -25,7 +25,7 @@
 						<key>caret</key><string>#FFFFFF</string>
 						<key>foreground</key><string>#DEDEDE</string>
 						<key>invisibles</key><string>#3B3A32</string>
-						<key>lineHighlight</key><string>#E5E5E5</string>
+						<key>lineHighlight</key><string>#00000030</string>
 
 						<key>selection</key><string>#253B76</string>
 						<key>selectionBorder</key><string>#A1A1FF</string>
