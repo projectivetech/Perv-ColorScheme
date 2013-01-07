@@ -3,7 +3,7 @@
 **"Actually, as a native from Perv I prefer to be called a 'Pervect'"**  < *Aahz in Myth Directions* >
 
 
-The color scheme was made because I was unsatiesfied with the limited syntax coloring of various color schemes-mainly missing coloring for C/C++, Ruby, JSON and ReST (Resturctured Text).  Therefore I created the Perv Orange Color Theme.
+The color scheme was made because I was unsatisfied with the limited syntax coloring of various color schemes-mainly missing coloring for C/C++, Ruby, JSON and ReST (Restructured Text).  Therefore I created the Perv Orange Color Theme.
 
 I tried to, kind of, group the colors together based on scopes.  Keywords, functions, etc. are red/orange; constants, strings, etc. are based on green; objects, classes, etc. are based on blue.
 
@@ -32,7 +32,6 @@ Now simply use the `Color Schemes` option of your preferences menu to switch bet
 Dark and retro color scheme:
 
 ![Perv Orange](https://raw.github.com/FlavourSys/Perv-ColorScheme/master/screenshots/perv-orange.png)
-(coming soon ;) )
 
 
 ## Contribute
@@ -44,7 +43,7 @@ If you find any problems, please don't hesitate to open an issue.  And if you wa
 
 A very big thanks goes to [Dayle Rees](https://github.com/daylerees) for the work he has done with his [Color Schemes](https://github.com/daylerees/colour-schemes).  I used his Laravel Dark theme as a skeleton for this color scheme, as well as I used part of his readme.  Without that I wouldn't have made the push to GitHub ;)
 
-Also I need to thank my collegues at [FlavourSys](http://www.flavoursys.com) for there valued input and comments-as well as the kick in the b... to push to GitHub.
+Also I need to thank my colleagues at [FlavourSys](http://www.flavoursys.com) for their valued input and comments--as well as the kick in the b... to push to GitHub.
 
 *Always have fun in what you're doing and* "DON'T PANIC"...
 
