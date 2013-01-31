@@ -274,7 +274,6 @@
 			<dict>
 				<key>name</key><string>Embedded Ruby Punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
-				source.ruby.embedded.source punctuation.section.function.ruby
 				<key>settings</key>
 					<dict>
 <!-- ###								noch zu verifizierende Farbe!  			-->
