@@ -26,8 +26,6 @@
 <!-- 	Please use the line below if you have '"highlight_line": true' in your settings								-->
 						<!-- <key>lineHighlight</key><string>#E5E5E515</string> -->
 <!-- 	Please use the line below if you have '"highlight_line": false' in your settings (this one is the default)	-->
-<!-- ###								noch zu definierende Farbe!  			-->
-						<!-- <key>lineHighlight</key><string>#FFFFFFEE</string> -->
 						<key>lineHighlight</key><string>#E5E5E5BB</string>
 
 						<key>selection</key><string>#253B76</string>
@@ -104,6 +102,7 @@
 						<key>foreground</key><string>#FBDE2D</string>
 					</dict>
 			</dict>
+<!-- 		### Copy to my blog post ###						 -->
 			<dict>
 				<key>name</key><string>Invalid</string>
 				<key>scope</key><string>invalid</string>
@@ -133,6 +132,7 @@
 						<key>foreground</key><string>#C6FF1A25</string>
 					</dict>
 			</dict>
+<!-- 		### Copy to my blog post ###						 -->
 			<dict>
 				<key>name</key><string>Find-in-Files filename</string>
 				<key>scope</key><string>entity.name.filename.find-in-files</string>
@@ -454,12 +454,9 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 					<dict>
 						<key>fontStyle</key><string>bold</string>
 						<key>foreground</key><string>#FF8C00</string>
-						<!-- <key>foreground</key><string>#EEEEEE</string> -->
-						<!-- <key>background</key><string>#8E593E</string> -->
 					</dict>
 			</dict>
 			<dict>
-<!-- ### 			Changed scope list, added Knockdown support 		### -->
 				<key>name</key><string>Markdown keywords</string>
 				<key>scope</key><string>punctuation.definition.metadata.markdown, punctuation.definition.link.markdown, punctuation.definition.raw.markdown, punctuation.definition.string.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.constant.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.heading.markdown, punctuation.definition.list_item.markdown, meta.separator.markdown</string>
 				<key>settings</key>
@@ -468,18 +465,6 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 						<key>foreground</key><string>#E5A373</string>
 					</dict>
 			</dict>
-<!--
-			<dict>
-				<key>name</key><string>Markdown separator</string>
-				<key>scope</key><string>meta.separator.markdown</string>
-				<key>settings</key>
-					<dict>
-						<key>fontStyle</key><string></string>
-						<key>foreground</key><string>#E5A373</string>
-						<key>background</key><string>#5F5A60</string>
-					</dict>
-			</dict>
- -->
 			<dict>
 				<key>name</key><string>Markdown links</string>
 				<key>scope</key><string>meta.image.inline.markdown, markup.underline.link.markdown</string>

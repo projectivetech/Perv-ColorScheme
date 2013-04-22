@@ -12,6 +12,7 @@
 - [ ] check out for what the "invisibles" scope is used
 - [ ] update Ruby -- especially inline code
 - [ ] include CSS, SASS (both Packages: SASS and "Syntax Highlighter for SASS")
+- [ ] recommend "Soda Theme" in this Readme
 
 ## Introduction
 

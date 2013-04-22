@@ -26,8 +26,6 @@
 <!-- 	Please use the line below if you use '"highlight_line": true' in your settings								-->
 						<!-- <key>lineHighlight</key><string>#E5E5E515</string> -->
 <!-- 	Please use the line below if you use '"highlight_line": false' in your settings (this one is the default)	-->
-<!-- ###								noch zu definierende Farbe!  			-->
-						<!-- <key>lineHighlight</key><string>#FFFFFFEE</string> -->
 						<key>lineHighlight</key><string>#E5E5E5BB</string>
 
 						<key>selection</key><string>#253B76</string>
