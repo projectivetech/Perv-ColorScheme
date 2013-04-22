@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  ======================================================================  -->
+<!--  Perv Orange Night Color theme - version 1.3.0							  -->
+<!--  ======================================================================  -->
+<!--  A Sublime Text 2 & 3 / Textmate theme.								  -->
+<!--  Copyright (c) 2012-2013 Mick Hohmann.									  -->
+<!--  Released under the MIT License <http://opensource.org/licenses/MIT>	  -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  Find more Sublime Text stuff at : https://github.com/micck/			  -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key><string>Perv Orange Night</string>
+	<key>comment</key><string>Based on Laravel Darker recolored by Mick and added dedicated syntax highlighting for C/C++, DIFF, Git, JSON, Markdown, reStructuredText, Ruby and SublimeLinter</string>
+	<key>author</key><string>Mick Hohmann</string>
+	<key>settings</key>
+		<array>
+			<dict>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#111111</string>
+						<key>caret</key><string>#FFFFFF</string>
+						<key>foreground</key><string>#EEEEEE</string>
+						<key>invisibles</key><string>#3B3A32</string>
+<!-- 	Please use the line below if you have '"highlight_line": true' in your settings								-->
+						<!-- <key>lineHighlight</key><string>#E5E5E515</string> -->
+<!-- 	Please use the line below if you have '"highlight_line": false' in your settings (this one is the default)	-->
+<!-- ###								noch zu definierende Farbe!  			-->
+						<!-- <key>lineHighlight</key><string>#FFFFFFEE</string> -->
+						<key>lineHighlight</key><string>#E5E5E5BB</string>
+
+						<key>selection</key><string>#253B76</string>
+						<key>selectionBorder</key><string>#A1A1FF</string>
+
+						<key>findHighlight</key><string>#FFE792</string>
+						<key>findHighlightForeground</key><string>#000000</string>
+						<key>activeGuide</key><string>#CC66FFB0</string>
+
+						<key>bracketsForeground</key><string>#FF0000C0</string>
+						<key>bracketsOptions</key><string>underline</string>
+						<key>bracketContentsForeground</key><string>#FFFF00CC</string>
+						<key>bracketContentsOptions</key><string>underline</string>
+						<key>tagsOptions</key><string>stippled_underline</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Comment</string>
+				<key>scope</key><string>comment</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#9B969C</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Constant</string>
+				<key>scope</key><string>constant</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#C6FF1A</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>String</string>
+				<key>scope</key><string>string</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#96AB5F</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Entity</string>
+				<key>scope</key><string>entity</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#3355FF</string>
+					</dict>
+			</dict>
+
+			<dict>
+				<key>name</key><string>Variable</string>
+				<key>scope</key><string>variable</string>
+				<key>settings</key>
+					<dict>
+						<!-- <key>fontStyle</key><string>bold</string> -->
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Keyword</string>
+				<key>scope</key><string>keyword</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFA200</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Storage</string>
+				<key>scope</key><string>storage</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FBDE2D</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Invalid</string>
+				<key>scope</key><string>invalid</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#FFC533</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Invalid deprecated</string>
+				<key>scope</key><string>invalid.deprecated</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#FF4433</string>
+					</dict>
+			</dict>
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for find-in-files highlighting - Updated: 2013-04-20 <> Start -->
+			<dict>
+				<key>name</key><string>Find-in-Files line number</string>
+				<key>scope</key><string>constant.numeric.line-number.find-in-files - match</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#C6FF1A25</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Find-in-Files filename</string>
+				<key>scope</key><string>entity.name.filename.find-in-files</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>underline</string>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#0050A0</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for find-in-files highlighting --------------------- -->
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for generic code highlighting <> Start -->
+			<dict>
+				<key>name</key><string>Number</string>
+				<key>scope</key><string>constant.numeric</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#C6FF1A</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Built-in constant</string>
+				<key>scope</key><string>constant.language</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#A4DB00</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>User-defined constant</string>
+				<key>scope</key><string>constant.character, constant.other</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#EDFF24</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Storage type</string>
+				<key>scope</key><string>storage.type</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#FFC533</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Class name</string>
+				<key>scope</key><string>entity.name.class</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#3355FF</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Inherited class</string>
+				<key>scope</key><string>entity.other.inherited-class</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#3388FF</string>
+					</dict>
+			</dict>
+<!--
+
+	Temp playground
+
+
+
+ -->
+
+<!-- 			<dict>
+				<key>name</key><string>Function name</string>
+				<key>scope</key><string>meta.function-call.python</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#444444</string>
+					</dict>
+			</dict>
+ -->
+ 			<dict>
+				<key>name</key><string>Function name</string>
+<!-- ###		noch zu definierende Definition (Scope) für Function-Calls  	-->
+				<!-- <key>scope</key><string>meta.function-call</string> -->
+				<key>scope</key><string>entity.name.function, meta.function-call.python - punctuation - meta.function-call.arguments.python</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>bold</string>
+						<key>foreground</key><string>#FF4433</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Function argument</string>
+				<key>scope</key><string>variable.parameter, meta.function-call.arguments</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#E5A373</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Tag name</string>
+				<key>scope</key><string>entity.name.tag</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FF8C00</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Tag attribute</string>
+				<key>scope</key><string>entity.other.attribute-name</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Library function</string>
+				<key>scope</key><string>support.function</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+<!-- 		### Colour needs to be changed ### 								-->
+						<key>foreground</key><string>#FF1F0A</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Library constant</string>
+				<key>scope</key><string>support.constant</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+<!-- ###								noch zu verifizierende Farbe!  			-->
+						<key>foreground</key><string>#EDFF24</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Library class/type</string>
+				<key>scope</key><string>support.type, support.class</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#8F8FFF</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Library variable</string>
+				<key>scope</key><string>support.other.variable</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>underline</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for generic code highlighting -->
+<!-- ########################################################################################################### -->
+<!-- ### Ruby for ST3 missing -->
+			<!-- Theme additions for Ruby embedded code in strings <> Start -->
+			<dict>
+				<key>name</key><string>Embedded Ruby Punctuation</string>
+				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
+<!-- ### Überbleibsel?!				source.ruby.embedded.source punctuation.section.function.ruby 	-->
+				<key>settings</key>
+					<dict>
+<!-- ###								noch zu verifizierende Farbe!  			-->
+						<key>foreground</key><string>#626b49</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Embedded Ruby Punctuation Function</string>
+				<key>scope</key><string>string source.ruby.embedded.source punctuation.section.function.ruby</string>
+				<key>settings</key>
+					<dict>
+<!-- ###								noch zu verifizierende Farbe!  			-->
+						<key>foreground</key><string>#626b49</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Embedded Ruby Source</string>
+				<key>scope</key><string>string source.ruby.embedded.source</string>
+				<key>settings</key>
+					<dict>
+<!-- ###								noch zu verifizierende Farbe!  			-->
+						<key>foreground</key><string>#A4DB00</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for Ruby embedded code in strings -->
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for JSON - Updated: 2013-04-19 <> Start -->
+<!--
+
+Punctuation:	source.json meta.structure.dictionary.json string.quoted.double.json punctuation.definition.string.begin.json
+Structure:		source.json meta.structure.dictionary.json string.quoted.double.json
+Separator:		source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json
+Const.lang:		source.json meta.structure.dictionary.json meta.structure.dictionary.value.json constant.language.json
+String:			source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json
+
+
+
+
+ -->
+			<dict>
+				<key>name</key><string>JSON Punctuation</string>
+				<key>scope</key><string>meta.structure.array.json meta.structure.dictionary.json punctuation.definition.dictionary.begin.json</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#CFCFC2</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>JSON Structure</string>
+				<key>scope</key><string>meta.structure.dictionary.json string.quoted.double.json</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFA200</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>JSON String</string>
+				<key>scope</key><string>meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#96AB5F</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for JSON --------------------- -->
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for Git, GitGutter & DIFF - Updated: 2013-04-21 <> Start -->
+			<dict>
+				<key>name</key><string>DIFF header text</string>
+				<key>scope</key><string>meta.diff, meta.diff.header</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#000000</string>
+						<key>background</key><string>#5F5A60</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>DIFF separator line</string>
+				<key>scope</key><string>meta.separator.diff</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#9B969C</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>DIFF deleted lines</string>
+				<key>scope</key><string>markup.deleted.diff</string>
+				<key>settings</key>
+					<dict>
+					   <key>foreground</key><string>#FF4433</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>DIFF inserted lines</string>
+				<key>scope</key><string>markup.inserted.diff</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#96AB5F</string>
+					</dict>
+			</dict>
+			<!-- The following definitions are for GitGutter only -->
+			<dict>
+				<key>name</key><string>GitGutter deleted lines</string>
+				<key>scope</key><string>markup.deleted</string>
+				<key>settings</key>
+					<dict>
+					   <key>foreground</key><string>#FF4433</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>GitGutter inserted lines</string>
+				<key>scope</key><string>markup.inserted</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#A4DB00</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>GitGutter changed lines</string>
+				<key>scope</key><string>markup.changed</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FF8C00</string>
+					</dict>
+			</dict>
+			<!-- The following definitions are for Git (sublime-text-2-git) only -->
+			<dict>
+				<key>name</key><string>Git Modified Line</string>
+				<key>scope</key><string>git.changes.x</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#272852</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Git Added Line</string>
+				<key>scope</key><string>git.changes.+</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#275822</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Git Remove Line</string>
+				<key>scope</key><string>git.changes.-</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#A72822</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for Git, GitGutter & DIFF --------------------- -->
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for Markdown - Updated: 2013-04-19 <> Start -->
+			<dict>
+				<key>name</key><string>Markdown header text</string>
+				<key>scope</key><string>markup.heading.markdown, markup.heading.1.markdown, markup.heading.2.markdown, entity.name.section.markdown, markup.heading.markdown string.other.link</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>bold</string>
+						<key>foreground</key><string>#FF8C00</string>
+						<!-- <key>foreground</key><string>#EEEEEE</string> -->
+						<!-- <key>background</key><string>#8E593E</string> -->
+					</dict>
+			</dict>
+			<dict>
+<!-- ### 			Changed scope list, added Knockdown support 		### -->
+				<key>name</key><string>Markdown keywords</string>
+				<key>scope</key><string>punctuation.definition.metadata.markdown, punctuation.definition.link.markdown, punctuation.definition.raw.markdown, punctuation.definition.string.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown, punctuation.definition.constant.markdown, punctuation.definition.blockquote.markdown, punctuation.definition.heading.markdown, punctuation.definition.list_item.markdown, meta.separator.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#E5A373</string>
+					</dict>
+			</dict>
+<!--
+			<dict>
+				<key>name</key><string>Markdown separator</string>
+				<key>scope</key><string>meta.separator.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#E5A373</string>
+						<key>background</key><string>#5F5A60</string>
+					</dict>
+			</dict>
+ -->
+			<dict>
+				<key>name</key><string>Markdown links</string>
+				<key>scope</key><string>meta.image.inline.markdown, markup.underline.link.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#9B969C</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Markdown raw block</string>
+				<key>scope</key><string>markup.raw.block.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Markdown link text</string>
+				<key>scope</key><string>meta.paragraph.markdown string.other.link, string.other.link.description.title.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#EEEEEE</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Markdown raw inline text</string>
+				<key>scope</key><string>markup.raw.inline.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Markdown bold</string>
+				<key>scope</key><string>markup.bold.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>bold</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Markdown italic</string>
+				<key>scope</key><string>markup.italic.markdown</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for Markdown --------------------- -->
+
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for reStructuredText and Sphinx - Updated: 2013-04-19 <> Start -->
+			<dict>
+				<key>name</key><string>reStructuredText tags</string>
+				<key>scope</key><string>meta.other.directive.restructuredtext, meta.raw.block.restructuredtext, meta.raw.block.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFC533</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText directives</string>
+				<key>scope</key><string>entity.name.tag.restructuredtext, meta.raw.block.restructuredtext meta.raw.block.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FF4433</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText keywords</string>
+				<key>scope</key><string>punctuation.definition.directive.restructuredtext, punctuation.definition.field.restructuredtext, punctuation.definition.heading.restructuredtext, punctuation.definition.intepreted.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.link.restructuredtext, punctuation.definition.location.restructuredtext, punctuation.definition.raw.restructuredtext, punctuation.definition.raw.restructuredtext, punctuation.definition.string.restructuredtext, punctuation.separator.key-value.restructuredtext, meta.link.reference string.other.link.title.restructuredtext - punctuation.definition.italic</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FF8C00</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText link</string>
+				<key>scope</key><string>meta.link.inline.restructuredtext markup.underline.link.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#9B969C</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText link anchor</string>
+				<key>scope</key><string>meta.link.reference.def.restructuredtext string.other.link.title.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#C6FF1A</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText raw block</string>
+				<key>scope</key><string>markup.other.command.restructuredtext, markup.raw.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText raw inline</string>
+				<key>scope</key><string>markup.raw.restructuredtext - meta.raw.block.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText link text</string>
+				<key>scope</key><string>meta.link.inline.restructuredtext string.other.link.title.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#EEEEEE</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText bold</string>
+				<key>scope</key><string>markup.bold.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>bold</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>reStructuredText italic</string>
+				<key>scope</key><string>markup.italic.restructuredtext</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for reStructuredText and Sphinx --------------------- -->
+<!-- ########################################################################################################### -->
+			<!-- Theme additions for SublimeLinter <> Start -->
+			<dict>
+				<key>name</key><string>SublimeLinter Annotations</string>
+				<key>scope</key><string>sublimelinter.annotations</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#FFFFAA</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Error Outline</string>
+				<key>scope</key><string>sublimelinter.outline.illegal</string><key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#FF4A52</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Error Underline</string>
+				<key>scope</key><string>sublimelinter.underline.illegal</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#FF0000</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Warning Outline</string>
+				<key>scope</key><string>sublimelinter.outline.warning</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#DF9400</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Warning Underline</string>
+				<key>scope</key><string>sublimelinter.underline.warning</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#FF0000</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Violation Outline</string>
+				<key>scope</key><string>sublimelinter.outline.violation</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFFFFF</string>
+						<key>background</key><string>#ffffff33</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>SublimeLinter Violation Underline</string>
+				<key>scope</key><string>sublimelinter.underline.violation</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#FF0000</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for SublimeLinter -->
+		</array>
+	<key>uuid</key><string>FFC5C692-05C6-4E8A-820C-AE457C1FAAE2</string>
+</dict>
+</plist>
