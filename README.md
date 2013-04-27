@@ -34,13 +34,13 @@ The colors are grouped together based on scopes:
 
 Dark and retro:
 
-![Perv Orange](https://raw.github.com/FlavourSys/Perv-ColorScheme/master/screenshots/perv-orange.png)
+![Perv Orange](screenshots/perv-orange.png)
 
 #### Perv Orange Moonlight
 
 With a darker background and a higher contrast:
 
-![Perv Orange Moonlight](https://raw.github.com/FlavourSys/Perv-ColorScheme/master/screenshots/perv-orange-moonlight.png)
+![Perv Orange Moonlight](screenshots/perv-orange-moonlight.png)
 
 The screenshots were made with the [Soda Theme](http://buymeasoda.github.io/soda-theme/) installed--it goes along nicely with the Perv Color Schemes.
 
@@ -79,7 +79,7 @@ Now simply use the `Color Scheme -> Perv - Color Scheme` option of your preferen
 2. _major change_: added support for **"CSS"**, &amp; **"SASS/SCSS"** (through the packages [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass), [SCSS](https://github.com/kuroir/SCSS.tmbundle) and [Sass](https://github.com/nathos/sass-textmate-bundle))
 3. _major change_: added support for **"Markdown"** (Standard Sublime Text syntax highlighter) and **"GitHub Flavored Markdown"** through the package [knockdown](https://github.com/aziz/knockdown) (which also adds more highlighting for the standard Markdown syntax to any Markdown files)
 4. _major change_: added support for **"reStructuredText"** (Standard Sublime Text syntax highlighter) and updated coloring for [reStructuredTextExtended](https://github.com/jhaubrich/Jesse-s-Sublime-Mods)
-5. _major change_: changed highlighting for (**"Git"**)**"DIFF"** output/files, added support for **"GitGutter"**
+5. _major change_: changed highlighting for **"Git"** &amp; **"DIFF"** output/files, added support for **"GitGutter"**
 6. _major change_: regarding "line highlighting": it is nearly impossible to have one color which works with `highlight_line` turned on or off.  And as I don't use that, I added a second in the tmTheme file for those who do use `highlight_line`. See above for a short description how to change the "line highlight" color
 7. _change_: removed *italics* from "function arguments", but they are still rendered in color
 8. _change_: updated Ruby embedded source code highlighting
