@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  ======================================================================  -->
-<!--  Perv Orange Night Color theme - version 1.3.0							  -->
+<!--  Perv Orange Moonlight Color theme - version 1.3.0							  -->
 <!--  ======================================================================  -->
 <!--  A Sublime Text 2 & 3 / Textmate theme.								  -->
 <!--  Copyright (c) 2012-2013 Mick Hohmann.									  -->
@@ -11,8 +11,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key><string>Perv Orange Night</string>
-	<key>comment</key><string>Based on Laravel Darker recolored by Mick and added dedicated syntax highlighting for C/C++, DIFF, Git, JSON, Markdown, reStructuredText, Ruby and SublimeLinter</string>
+	<key>name</key><string>Perv Orange Moonlight</string>
+	<key>comment</key><string>Based on Laravel Darker recolored by Mick and added dedicated syntax highlighting for Markdown, reStructuredText, Ruby, C/C++ CSS, SASS/SCSS, JSON, Git, GitGutter, DIFF and SublimeLinter</string>
 	<key>author</key><string>Mick Hohmann</string>
 	<key>settings</key>
 		<array>
@@ -23,9 +23,11 @@
 						<key>caret</key><string>#FFFFFF</string>
 						<key>foreground</key><string>#EEEEEE</string>
 						<key>invisibles</key><string>#3B3A32</string>
-<!-- 	Please use the line below if you have '"highlight_line": true' in your settings								-->
-						<!-- <key>lineHighlight</key><string>#E5E5E515</string> -->
-<!-- 	Please use the line below if you have '"highlight_line": false' in your settings (this one is the default)	-->
+<!-- Please use the line below if you have '"highlight_line": true' in your settings	-->
+						<!-- <key>lineHighlight</key><string>#E5E5E515</string> 		-->
+
+<!-- Please use the line below if you have '"highlight_line": false' in your settings	-->
+<!-- 						(the one below is the default)								-->
 						<key>lineHighlight</key><string>#E5E5E5BB</string>
 
 						<key>selection</key><string>#253B76</string>
@@ -47,6 +49,7 @@
 				<key>scope</key><string>comment</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#9B969C</string>
 					</dict>
@@ -82,6 +85,7 @@
 				<key>scope</key><string>variable</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Bold fontface							### -->
 						<!-- <key>fontStyle</key><string>bold</string> -->
 					</dict>
 			</dict>
@@ -102,7 +106,6 @@
 						<key>foreground</key><string>#FBDE2D</string>
 					</dict>
 			</dict>
-<!-- 		### Copy to my blog post ###						 -->
 			<dict>
 				<key>name</key><string>Invalid</string>
 				<key>scope</key><string>invalid</string>
@@ -119,10 +122,10 @@
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FFFFFF</string>
-						<key>background</key><string>#FF4433</string>
+						<key>background</key><string>#FF3322</string>
 					</dict>
 			</dict>
-<!-- ########################################################################################################### -->
+
 			<!-- Theme additions for find-in-files highlighting - Updated: 2013-04-20 <> Start -->
 			<dict>
 				<key>name</key><string>Find-in-Files line number</string>
@@ -132,7 +135,6 @@
 						<key>foreground</key><string>#C6FF1A25</string>
 					</dict>
 			</dict>
-<!-- 		### Copy to my blog post ###						 -->
 			<dict>
 				<key>name</key><string>Find-in-Files filename</string>
 				<key>scope</key><string>entity.name.filename.find-in-files</string>
@@ -144,8 +146,8 @@
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for find-in-files highlighting --------------------- -->
-<!-- ########################################################################################################### -->
-			<!-- Theme additions for generic code highlighting <> Start -->
+
+			<!-- Theme additions for generic code highlighting - Updated: 2013-04-24 <> Start -->
 			<dict>
 				<key>name</key><string>Number</string>
 				<key>scope</key><string>constant.numeric</string>
@@ -175,6 +177,7 @@
 				<key>scope</key><string>storage.type</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#FFC533</string>
 					</dict>
@@ -192,36 +195,19 @@
 				<key>scope</key><string>entity.other.inherited-class</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#3388FF</string>
 					</dict>
 			</dict>
-<!--
-
-	Temp playground
-
-
-
- -->
-
-<!-- 			<dict>
+			<dict>
 				<key>name</key><string>Function name</string>
-				<key>scope</key><string>meta.function-call.python</string>
-				<key>settings</key>
-					<dict>
-						<key>background</key><string>#444444</string>
-					</dict>
-			</dict>
- -->
- 			<dict>
-				<key>name</key><string>Function name</string>
-<!-- ###		noch zu definierende Definition (Scope) für Function-Calls  	-->
-				<!-- <key>scope</key><string>meta.function-call</string> -->
 				<key>scope</key><string>entity.name.function, meta.function-call.python - punctuation - meta.function-call.arguments.python</string>
 				<key>settings</key>
 					<dict>
-						<key>fontStyle</key><string>bold</string>
-						<key>foreground</key><string>#FF4433</string>
+<!-- ###						Bold fontface							### -->
+						<!-- <key>fontStyle</key><string>bold</string> -->
+						<key>foreground</key><string>#FF5511</string>
 					</dict>
 			</dict>
 			<dict>
@@ -256,8 +242,7 @@
 				<key>settings</key>
 					<dict>
 						<key>fontStyle</key><string></string>
-<!-- 		### Colour needs to be changed ### 								-->
-						<key>foreground</key><string>#FF1F0A</string>
+						<key>foreground</key><string>#FF3322</string>
 					</dict>
 			</dict>
 			<dict>
@@ -266,7 +251,6 @@
 				<key>settings</key>
 					<dict>
 						<key>fontStyle</key><string></string>
-<!-- ###								noch zu verifizierende Farbe!  			-->
 						<key>foreground</key><string>#EDFF24</string>
 					</dict>
 			</dict>
@@ -275,6 +259,7 @@
 				<key>scope</key><string>support.type, support.class</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#8F8FFF</string>
 					</dict>
@@ -287,59 +272,137 @@
 						<key>fontStyle</key><string>underline</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for generic code highlighting -->
-<!-- ########################################################################################################### -->
-<!-- ### Ruby for ST3 missing -->
-			<!-- Theme additions for Ruby embedded code in strings <> Start -->
+			<!-- End  <>  Theme additions for generic code highlighting --------------------- -->
+
+			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-04-24 <> Start -->
 			<dict>
-				<key>name</key><string>Embedded Ruby Punctuation</string>
+				<key>name</key><string>Ruby Embedded Source Punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
-<!-- ### Überbleibsel?!				source.ruby.embedded.source punctuation.section.function.ruby 	-->
 				<key>settings</key>
 					<dict>
-<!-- ###								noch zu verifizierende Farbe!  			-->
-						<key>foreground</key><string>#626b49</string>
+						<key>foreground</key><string>#626B49</string>
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Embedded Ruby Punctuation Function</string>
-				<key>scope</key><string>string source.ruby.embedded.source punctuation.section.function.ruby</string>
+				<key>name</key><string>Ruby Embedded Source</string>
+				<key>scope</key><string>string source.ruby.embedded.source, string source.ruby.embedded.source punctuation.section.function.ruby</string>
 				<key>settings</key>
 					<dict>
-<!-- ###								noch zu verifizierende Farbe!  			-->
-						<key>foreground</key><string>#626b49</string>
+						<key>foreground</key><string>#E5E5E5</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for Ruby embedded code in strings --------------------- -->
+<!-- ######################################################################### -->
+			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 <> Start -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
+				<key>scope</key><string>punctuation.section.function.css, punctuation.definition.constant.css, source.scss comment.punctuation</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<!-- <key>foreground</key><string>#DEDEDE</string> -->
+						<key>foreground</key><string>#EEEEEE</string>
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Embedded Ruby Source</string>
-				<key>scope</key><string>string source.ruby.embedded.source</string>
+				<key>name</key><string>SASS/SCSS Variables</string>
+				<key>scope</key><string>variable.parameter.sass, support.constant.property-value.css.sass variable</string>
 				<key>settings</key>
 					<dict>
-<!-- ###								noch zu verifizierende Farbe!  			-->
+						<!-- <key>foreground</key><string>#DEDEDE</string> -->
+						<key>foreground</key><string>#EEEEEE</string>
+					</dict>
+			</dict>
+<!-- #FF3322 Dunkel-Rot (lib-funcs) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Library Functions</string>
+				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FF3322</string>
+					</dict>
+			</dict>
+<!-- #FF5511 Rot (func-names) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Function Names</string>
+				<key>scope</key><string>support.function.name.sass, source.css support.function</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FF5511</string>
+					</dict>
+			</dict>
+<!-- #FFA200 Orange (keywords) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Elements</string>
+				<key>scope</key><string>entity.other.attribute-name</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFA200</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Pseudo Elements</string>
+				<key>scope</key><string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string>italic</string>
+					</dict>
+			</dict>
+<!-- #E58F73 Red Skin color (tag args) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Property Names</string>
+				<key>scope</key><string>support.type.property-name</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#E58F73</string>
+					</dict>
+			</dict>
+<!-- #FFC533 Yellow (storage types) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Units</string>
+				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFC533</string>
+					</dict>
+			</dict>
+<!-- #96AB5F Dark green (strings) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Strings</string>
+				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#96AB5F</string>
+					</dict>
+			</dict>
+<!-- #A4DB00 Green (built-in consts) -->
+			<dict>
+				<key>name</key><string>CSS/SASS/SCSS Constant Language</string>
+				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant</string>
+				<key>settings</key>
+					<dict>
 						<key>foreground</key><string>#A4DB00</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for Ruby embedded code in strings -->
-<!-- ########################################################################################################### -->
-			<!-- Theme additions for JSON - Updated: 2013-04-19 <> Start -->
-<!--
-
-Punctuation:	source.json meta.structure.dictionary.json string.quoted.double.json punctuation.definition.string.begin.json
-Structure:		source.json meta.structure.dictionary.json string.quoted.double.json
-Separator:		source.json meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.separator.dictionary.key-value.json
-Const.lang:		source.json meta.structure.dictionary.json meta.structure.dictionary.value.json constant.language.json
-String:			source.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json punctuation.definition.string.begin.json
-
-
-
-
- -->
+<!-- #C6FF1A Green (consts & numbers) -->
 			<dict>
-				<key>name</key><string>JSON Punctuation</string>
-				<key>scope</key><string>meta.structure.array.json meta.structure.dictionary.json punctuation.definition.dictionary.begin.json</string>
+				<key>name</key><string>CSS/SASS/SCSS Color Values</string>
+				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#CFCFC2</string>
+						<key>foreground</key><string>#C6FF1A</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for CSS, SASS/SCSS --------------------- -->
+
+			<!-- Theme additions for JSON - Updated: 2013-04-24 <> Start -->
+			<dict>
+				<key>name</key><string>JSON Punctuation</string>
+				<key>scope</key><string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#EEEEEE</string>
 					</dict>
 			</dict>
 			<dict>
@@ -352,14 +415,25 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 			</dict>
 			<dict>
 				<key>name</key><string>JSON String</string>
-				<key>scope</key><string>meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json</string>
+				<key>scope</key><string>meta.structure.dictionary.value.json string.quoted.double.json</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#96AB5F</string>
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for JSON --------------------- -->
-<!-- ########################################################################################################### -->
+
+			<!-- Theme additions for YAML - Updated: 2013-04-24 <> Start -->
+			<dict>
+				<key>name</key><string>YAML Punctuation</string>
+				<key>scope</key><string>punctuation.separator.key-value.yaml</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#EEEEEE</string>
+					</dict>
+			</dict>
+			<!-- End  <>  Theme additions for YAML --------------------- -->
+
 			<!-- Theme additions for Git, GitGutter & DIFF - Updated: 2013-04-21 <> Start -->
 			<dict>
 				<key>name</key><string>DIFF header text</string>
@@ -383,7 +457,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.deleted.diff</string>
 				<key>settings</key>
 					<dict>
-					   <key>foreground</key><string>#FF4433</string>
+					   <key>foreground</key><string>#FF3322</string>
 					</dict>
 			</dict>
 			<dict>
@@ -400,7 +474,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.deleted</string>
 				<key>settings</key>
 					<dict>
-					   <key>foreground</key><string>#FF4433</string>
+					   <key>foreground</key><string>#FF3322</string>
 					</dict>
 			</dict>
 			<dict>
@@ -425,7 +499,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>git.changes.x</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#272852</string>
+						<key>background</key><string>#FF5511</string>
 					</dict>
 			</dict>
 			<dict>
@@ -433,7 +507,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>git.changes.+</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#275822</string>
+						<key>background</key><string>#96AB5F</string>
 					</dict>
 			</dict>
 			<dict>
@@ -441,17 +515,18 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>git.changes.-</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#A72822</string>
+						<key>background</key><string>#FF3322</string>
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for Git, GitGutter & DIFF --------------------- -->
-<!-- ########################################################################################################### -->
+
 			<!-- Theme additions for Markdown - Updated: 2013-04-19 <> Start -->
 			<dict>
 				<key>name</key><string>Markdown header text</string>
 				<key>scope</key><string>markup.heading.markdown, markup.heading.1.markdown, markup.heading.2.markdown, entity.name.section.markdown, markup.heading.markdown string.other.link</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Bold fontface							### -->
 						<key>fontStyle</key><string>bold</string>
 						<key>foreground</key><string>#FF8C00</string>
 					</dict>
@@ -483,7 +558,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 			</dict>
 			<dict>
 				<key>name</key><string>Markdown link text</string>
-				<key>scope</key><string>meta.paragraph.markdown string.other.link, string.other.link.description.title.markdown</string>
+				<key>scope</key><string>meta.paragraph.markdown string.other.link, meta.paragraph.list.markdown string.other.link, string.other.link.description.title.markdown</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#EEEEEE</string>
@@ -494,6 +569,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.raw.inline.markdown</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
@@ -503,6 +579,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.bold.markdown</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Bold fontface							### -->
 						<key>fontStyle</key><string>bold</string>
 					</dict>
 			</dict>
@@ -511,12 +588,12 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.italic.markdown</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for Markdown --------------------- -->
 
-<!-- ########################################################################################################### -->
 			<!-- Theme additions for reStructuredText and Sphinx - Updated: 2013-04-19 <> Start -->
 			<dict>
 				<key>name</key><string>reStructuredText tags</string>
@@ -531,7 +608,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>entity.name.tag.restructuredtext, meta.raw.block.restructuredtext meta.raw.block.restructuredtext</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#FF4433</string>
+						<key>foreground</key><string>#FF5511</string>
 					</dict>
 			</dict>
 			<dict>
@@ -572,6 +649,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.raw.restructuredtext - meta.raw.block.restructuredtext</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
@@ -589,6 +667,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.bold.restructuredtext</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Bold fontface							### -->
 						<key>fontStyle</key><string>bold</string>
 					</dict>
 			</dict>
@@ -597,27 +676,28 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>markup.italic.restructuredtext</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for reStructuredText and Sphinx --------------------- -->
-<!-- ########################################################################################################### -->
-			<!-- Theme additions for SublimeLinter <> Start -->
+
+			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 <> Start -->
 			<dict>
 				<key>name</key><string>SublimeLinter Annotations</string>
 				<key>scope</key><string>sublimelinter.annotations</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#FFFFFF</string>
-						<key>background</key><string>#FFFFAA</string>
+						<key>foreground</key><string>#EEEEEE</string>
+						<key>background</key><string>#3355FF</string>
 					</dict>
 			</dict>
 			<dict>
 				<key>name</key><string>SublimeLinter Error Outline</string>
 				<key>scope</key><string>sublimelinter.outline.illegal</string><key>settings</key>
 					<dict>
-						<key>foreground</key><string>#FFFFFF</string>
-						<key>background</key><string>#FF4A52</string>
+						<key>foreground</key><string>#EEEEEE</string>
+						<key>background</key><string>#FF3322</string>
 					</dict>
 			</dict>
 			<dict>
@@ -625,7 +705,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>sublimelinter.underline.illegal</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#FF0000</string>
+						<key>background</key><string>#FFE792</string>
 					</dict>
 			</dict>
 			<dict>
@@ -633,8 +713,8 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>sublimelinter.outline.warning</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#FFFFFF</string>
-						<key>background</key><string>#DF9400</string>
+						<key>foreground</key><string>#EEEEEE</string>
+						<key>background</key><string>#FF8C00</string>
 					</dict>
 			</dict>
 			<dict>
@@ -642,7 +722,7 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>sublimelinter.underline.warning</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#FF0000</string>
+						<key>background</key><string>#FFE792</string>
 					</dict>
 			</dict>
 			<dict>
@@ -650,8 +730,8 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>sublimelinter.outline.violation</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#FFFFFF</string>
-						<key>background</key><string>#ffffff33</string>
+						<key>foreground</key><string>#EEEEEE</string>
+						<key>background</key><string>#CC66FF33</string>
 					</dict>
 			</dict>
 			<dict>
@@ -659,10 +739,10 @@ String:			source.json meta.structure.dictionary.json meta.structure.dictionary.v
 				<key>scope</key><string>sublimelinter.underline.violation</string>
 				<key>settings</key>
 					<dict>
-						<key>background</key><string>#FF0000</string>
+						<key>background</key><string>#FFE792</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for SublimeLinter -->
+			<!-- End  <>  Theme additions for SublimeLinter --------------------- -->
 		</array>
 	<key>uuid</key><string>FFC5C692-05C6-4E8A-820C-AE457C1FAAE2</string>
 </dict>
