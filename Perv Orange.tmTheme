@@ -292,7 +292,7 @@
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for Ruby embedded code in strings --------------------- -->
-<!-- ######################################################################### -->
+
 			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 <> Start -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
@@ -672,7 +672,7 @@
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for reStructuredText and Sphinx --------------------- -->
-<!-- ######################################################################### -->
+
 			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 <> Start -->
 			<dict>
 				<key>name</key><string>SublimeLinter Annotations</string>

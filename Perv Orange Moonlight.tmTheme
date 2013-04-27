@@ -292,7 +292,7 @@
 					</dict>
 			</dict>
 			<!-- End  <>  Theme additions for Ruby embedded code in strings --------------------- -->
-<!-- ######################################################################### -->
+
 			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 <> Start -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
@@ -311,25 +311,22 @@
 						<key>foreground</key><string>#EEEEEE</string>
 					</dict>
 			</dict>
-<!-- #FF3322 Dunkel-Rot (lib-funcs) -->
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Library Functions</string>
+				<key>name</key><string>CSS/SASS/SCSS Keywords</string>
 				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css, keyword.other.default.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FF3322</string>
 					</dict>
 			</dict>
-<!-- #FF5511 Rot (func-names) -->
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Function Names</string>
+				<key>name</key><string>CSS/SASS/SCSS Functions</string>
 				<key>scope</key><string>support.function.name.sass, source.css support.function, support.function.misc.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FF5511</string>
 					</dict>
 			</dict>
-<!-- #FFA200 Orange (keywords) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Elements</string>
 				<key>scope</key><string>entity.other.attribute-name</string>
@@ -347,7 +344,6 @@
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
-<!-- #E58F73 Red Skin color (tag args) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Property Names</string>
 				<key>scope</key><string>support.type.property-name</string>
@@ -357,7 +353,6 @@
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
 			</dict>
-<!-- #FFC533 Yellow (storage types) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Units</string>
 				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass, keyword.other.unit.scss</string>
@@ -366,16 +361,14 @@
 						<key>foreground</key><string>#FFC533</string>
 					</dict>
 			</dict>
-<!-- #96AB5F Dark green (strings) -->
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Strings</string>
+				<key>name</key><string>CSS/SASS/SCSS Parameters</string>
 				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter, source.scss variable.parameter</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#96AB5F</string>
 					</dict>
 			</dict>
-<!-- #A4DB00 Green (built-in consts) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Constant Language</string>
 				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant, meta.property-value.scss support.constant</string>
@@ -384,7 +377,6 @@
 						<key>foreground</key><string>#A4DB00</string>
 					</dict>
 			</dict>
-<!-- #C6FF1A Green (consts & numbers) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Color Values</string>
 				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
