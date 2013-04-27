@@ -300,8 +300,7 @@
 				<key>settings</key>
 					<dict>
 						<key>fontStyle</key><string></string>
-						<!-- <key>foreground</key><string>#DEDEDE</string> -->
-						<key>foreground</key><string>#EEEEEE</string>
+						<key>foreground</key><string>#DEDEDE</string>
 					</dict>
 			</dict>
 			<dict>
@@ -309,29 +308,25 @@
 				<key>scope</key><string>variable.parameter.sass, support.constant.property-value.css.sass variable</string>
 				<key>settings</key>
 					<dict>
-						<!-- <key>foreground</key><string>#DEDEDE</string> -->
-						<key>foreground</key><string>#EEEEEE</string>
+						<key>foreground</key><string>#DEDEDE</string>
 					</dict>
 			</dict>
-<!-- #FF3322 Dunkel-Rot (lib-funcs) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Library Functions</string>
-				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css</string>
+				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css, keyword.other.default.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FF2211</string>
 					</dict>
 			</dict>
-<!-- #FF5511 Rot (func-names) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Function Names</string>
-				<key>scope</key><string>support.function.name.sass, source.css support.function</string>
+				<key>scope</key><string>support.function.name.sass, source.css support.function, support.function.misc.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FF4000</string>
 					</dict>
 			</dict>
-<!-- #FFA200 Orange (keywords) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Elements</string>
 				<key>scope</key><string>entity.other.attribute-name</string>
@@ -345,10 +340,10 @@
 				<key>scope</key><string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
 				<key>settings</key>
 					<dict>
+<!-- ###						Italics fontface						### -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
-<!-- #E58F73 Red Skin color (tag args) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Property Names</string>
 				<key>scope</key><string>support.type.property-name</string>
@@ -358,37 +353,33 @@
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
 			</dict>
-<!-- #FFC533 Yellow (storage types) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Units</string>
-				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass</string>
+				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass, keyword.other.unit.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#FDCA49</string>
 					</dict>
 			</dict>
-<!-- #96AB5F Dark green (strings) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Strings</string>
-				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter</string>
+				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter, source.scss variable.parameter</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#8F9D6A</string>
 					</dict>
 			</dict>
-<!-- #A4DB00 Green (built-in consts) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Constant Language</string>
-				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant</string>
+				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant, meta.property-value.scss support.constant</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#7CA600</string>
 					</dict>
 			</dict>
-<!-- #C6FF1A Green (consts & numbers) -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Color Values</string>
-				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass</string>
+				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#ACE600</string>

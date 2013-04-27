@@ -76,7 +76,7 @@ Now simply use the `Color Scheme -> Perv - Color Scheme` option of your preferen
 ### Version 1.3
 
 1. _major change_: added new Orange color scheme: **"Moonlight"**
-2. _major change_: added support for **"CSS"**, &amp; **"SASS/SCSS"** (through the packages [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass) and [Sass](https://github.com/nathos/sass-textmate-bundle))
+2. _major change_: added support for **"CSS"**, &amp; **"SASS/SCSS"** (through the packages [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass), [SCSS](https://github.com/kuroir/SCSS.tmbundle) and [Sass](https://github.com/nathos/sass-textmate-bundle))
 3. _major change_: added support for **"Markdown"** (Standard Sublime Text syntax highlighter) and **"GitHub Flavored Markdown"** through the package [knockdown](https://github.com/aziz/knockdown) (which also adds more highlighting for the standard Markdown syntax to any Markdown files)
 4. _major change_: added support for **"reStructuredText"** (Standard Sublime Text syntax highlighter) and updated coloring for [reStructuredTextExtended](https://github.com/jhaubrich/Jesse-s-Sublime-Mods)
 5. _major change_: changed highlighting for (**"Git"**)**"DIFF"** output/files, added support for **"GitGutter"**
