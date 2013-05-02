@@ -673,6 +673,71 @@
 			</dict>
 			<!-- End  ==  Theme additions for reStructuredText and Sphinx ===================== -->
 
+			<!-- Theme additions for BBCode - Updated: 2013-04-27 == Start -->
+			<dict>
+				<key>name</key><string>BBCode link targets</string>
+				<key>scope</key><string>text.bbcode markup.underline</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Underline fontface							=== -->
+						<key>fontStyle</key><string>underline</string>
+						<key>foreground</key><string>#8F8FFF</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode tags</string>
+				<key>scope</key><string>text.bbcode meta.tag.any.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FFA200</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode links</string>
+				<key>scope</key><string>meta.tag.value.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#E5A373</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode code tag</string>
+				<key>scope</key><string>text.bbcode meta.tag.code</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFA200</string>
+						<key>background</key><string>#111111</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode embedded source code</string>
+				<key>scope</key><string>text.bbcode source, text.html.embedded.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#343135</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode bolds</string>
+				<key>scope</key><string>text.bbcode markup.bold</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Bold fontface							=== -->
+						<key>fontStyle</key><string>bold</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode italics</string>
+				<key>scope</key><string>text.bbcode markup.italic</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Italics fontface						=== -->
+						<key>fontStyle</key><string>italic</string>
+					</dict>
+			</dict>
+			<!-- End  ==  Theme additions for BBCode ===================== -->
+
 			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 == Start -->
 			<dict>
 				<key>name</key><string>SublimeLinter Annotations</string>
