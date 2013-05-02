@@ -49,7 +49,7 @@
 				<key>scope</key><string>comment</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#9B969C</string>
 					</dict>
@@ -85,7 +85,7 @@
 				<key>scope</key><string>variable</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Bold fontface							### -->
+<!-- ===						Bold fontface							=== -->
 						<!-- <key>fontStyle</key><string>bold</string> -->
 					</dict>
 			</dict>
@@ -126,7 +126,7 @@
 					</dict>
 			</dict>
 
-			<!-- Theme additions for find-in-files highlighting - Updated: 2013-04-20 <> Start -->
+			<!-- Theme additions for find-in-files highlighting - Updated: 2013-04-20 == Start -->
 			<dict>
 				<key>name</key><string>Find-in-Files line number</string>
 				<key>scope</key><string>constant.numeric.line-number.find-in-files - match</string>
@@ -145,9 +145,9 @@
 						<key>background</key><string>#0050A0</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for find-in-files highlighting --------------------- -->
+			<!-- End  ==  Theme additions for find-in-files highlighting ===================== -->
 
-			<!-- Theme additions for generic code highlighting - Updated: 2013-04-24 <> Start -->
+			<!-- Theme additions for generic code highlighting - Updated: 2013-04-24 == Start -->
 			<dict>
 				<key>name</key><string>Number</string>
 				<key>scope</key><string>constant.numeric</string>
@@ -177,7 +177,7 @@
 				<key>scope</key><string>storage.type</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#FFC533</string>
 					</dict>
@@ -195,7 +195,7 @@
 				<key>scope</key><string>entity.other.inherited-class</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#3388FF</string>
 					</dict>
@@ -205,7 +205,7 @@
 				<key>scope</key><string>entity.name.function, meta.function-call.python - punctuation - meta.function-call.arguments.python</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Bold fontface							### -->
+<!-- ===						Bold fontface							=== -->
 						<!-- <key>fontStyle</key><string>bold</string> -->
 						<key>foreground</key><string>#FF5511</string>
 					</dict>
@@ -259,7 +259,7 @@
 				<key>scope</key><string>support.type, support.class</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#8F8FFF</string>
 					</dict>
@@ -272,9 +272,9 @@
 						<key>fontStyle</key><string>underline</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for generic code highlighting --------------------- -->
+			<!-- End  ==  Theme additions for generic code highlighting ===================== -->
 
-			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-04-24 <> Start -->
+			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-04-24 == Start -->
 			<dict>
 				<key>name</key><string>Ruby Embedded Source Punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
@@ -291,9 +291,9 @@
 						<key>foreground</key><string>#E5E5E5</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for Ruby embedded code in strings --------------------- -->
+			<!-- End  ==  Theme additions for Ruby embedded code in strings ===================== -->
 
-			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 <> Start -->
+			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 == Start -->
 			<dict>
 				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
 				<key>scope</key><string>punctuation.section.function.css, punctuation.definition.constant.css, source.scss comment.punctuation</string>
@@ -340,7 +340,7 @@
 				<key>scope</key><string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
@@ -385,9 +385,9 @@
 						<key>foreground</key><string>#C6FF1A</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for CSS, SASS/SCSS --------------------- -->
+			<!-- End  ==  Theme additions for CSS, SASS/SCSS ===================== -->
 
-			<!-- Theme additions for JSON - Updated: 2013-04-24 <> Start -->
+			<!-- Theme additions for JSON - Updated: 2013-04-24 == Start -->
 			<dict>
 				<key>name</key><string>JSON Punctuation</string>
 				<key>scope</key><string>punctuation.definition.string.begin.json - meta.structure.dictionary.value.json, punctuation.definition.string.end.json - meta.structure.dictionary.value.json</string>
@@ -412,9 +412,9 @@
 						<key>foreground</key><string>#96AB5F</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for JSON --------------------- -->
+			<!-- End  ==  Theme additions for JSON ===================== -->
 
-			<!-- Theme additions for YAML - Updated: 2013-04-24 <> Start -->
+			<!-- Theme additions for YAML - Updated: 2013-04-24 == Start -->
 			<dict>
 				<key>name</key><string>YAML Punctuation</string>
 				<key>scope</key><string>punctuation.separator.key-value.yaml</string>
@@ -423,9 +423,9 @@
 						<key>foreground</key><string>#EEEEEE</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for YAML --------------------- -->
+			<!-- End  ==  Theme additions for YAML ===================== -->
 
-			<!-- Theme additions for Git, GitGutter & DIFF - Updated: 2013-04-21 <> Start -->
+			<!-- Theme additions for Git, GitGutter & DIFF - Updated: 2013-04-21 == Start -->
 			<dict>
 				<key>name</key><string>DIFF header text</string>
 				<key>scope</key><string>meta.diff, meta.diff.header</string>
@@ -509,15 +509,15 @@
 						<key>background</key><string>#FF3322</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for Git, GitGutter & DIFF --------------------- -->
+			<!-- End  ==  Theme additions for Git, GitGutter & DIFF ===================== -->
 
-			<!-- Theme additions for Markdown - Updated: 2013-04-19 <> Start -->
+			<!-- Theme additions for Markdown - Updated: 2013-04-19 == Start -->
 			<dict>
 				<key>name</key><string>Markdown header text</string>
 				<key>scope</key><string>markup.heading.markdown, markup.heading.1.markdown, markup.heading.2.markdown, entity.name.section.markdown, markup.heading.markdown string.other.link</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Bold fontface							### -->
+<!-- ===						Bold fontface							=== -->
 						<key>fontStyle</key><string>bold</string>
 						<key>foreground</key><string>#FF8C00</string>
 					</dict>
@@ -560,7 +560,7 @@
 				<key>scope</key><string>markup.raw.inline.markdown</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
@@ -570,7 +570,7 @@
 				<key>scope</key><string>markup.bold.markdown</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Bold fontface							### -->
+<!-- ===						Bold fontface							=== -->
 						<key>fontStyle</key><string>bold</string>
 					</dict>
 			</dict>
@@ -579,13 +579,13 @@
 				<key>scope</key><string>markup.italic.markdown</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for Markdown --------------------- -->
+			<!-- End  ==  Theme additions for Markdown ===================== -->
 
-			<!-- Theme additions for reStructuredText and Sphinx - Updated: 2013-04-19 <> Start -->
+			<!-- Theme additions for reStructuredText and Sphinx - Updated: 2013-04-19 == Start -->
 			<dict>
 				<key>name</key><string>reStructuredText tags</string>
 				<key>scope</key><string>meta.other.directive.restructuredtext, meta.raw.block.restructuredtext, meta.raw.block.restructuredtext</string>
@@ -640,7 +640,7 @@
 				<key>scope</key><string>markup.raw.restructuredtext - meta.raw.block.restructuredtext</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 						<key>foreground</key><string>#E58F73</string>
 					</dict>
@@ -658,7 +658,7 @@
 				<key>scope</key><string>markup.bold.restructuredtext</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Bold fontface							### -->
+<!-- ===						Bold fontface							=== -->
 						<key>fontStyle</key><string>bold</string>
 					</dict>
 			</dict>
@@ -667,13 +667,13 @@
 				<key>scope</key><string>markup.italic.restructuredtext</string>
 				<key>settings</key>
 					<dict>
-<!-- ###						Italics fontface						### -->
+<!-- ===						Italics fontface						=== -->
 						<key>fontStyle</key><string>italic</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for reStructuredText and Sphinx --------------------- -->
+			<!-- End  ==  Theme additions for reStructuredText and Sphinx ===================== -->
 
-			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 <> Start -->
+			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 == Start -->
 			<dict>
 				<key>name</key><string>SublimeLinter Annotations</string>
 				<key>scope</key><string>sublimelinter.annotations</string>
@@ -733,7 +733,7 @@
 						<key>background</key><string>#FFE792</string>
 					</dict>
 			</dict>
-			<!-- End  <>  Theme additions for SublimeLinter --------------------- -->
+			<!-- End  ==  Theme additions for SublimeLinter ===================== -->
 		</array>
 	<key>uuid</key><string>FFC5C692-05C6-4E8A-820C-AE457C1FAAE2</string>
 </dict>
