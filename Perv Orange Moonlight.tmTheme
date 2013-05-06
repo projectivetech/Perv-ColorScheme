@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  ======================================================================  -->
-<!--  Perv Orange Moonlight Color scheme - version 1.3.1					  -->
+<!--  Perv Orange Moonlight Color scheme - version 1.3.3					  -->
 <!--  ======================================================================  -->
 <!--  A Sublime Text 2 & 3 / Textmate scheme.								  -->
 <!--  Copyright (c) 2012-2013 Mick Hohmann.									  -->
@@ -274,7 +274,15 @@
 			</dict>
 			<!-- End  ==  Theme additions for generic code highlighting ===================== -->
 
-			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-04-24 == Start -->
+			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-05-04 == Start -->
+			<dict>
+				<key>name</key><string>Ruby regexp punctuation</string>
+				<key>scope</key><string>string.regexp.classic.ruby punctuation.definition.string.ruby</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FFA200</string>
+					</dict>
+			</dict>
 			<dict>
 				<key>name</key><string>Ruby Embedded Source Punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
