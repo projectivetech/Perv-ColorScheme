@@ -6,7 +6,7 @@
 			"description": "Extended coloring for MD, reST, Ruby, C/C++ CSS, SASS/SCSS, JSON, Git, GitGutter, DIFF and SublimeLinter",
 			"author": "Mick Hohmann",
 			"homepage": "https://github.com/micck",
-			"last_modified": "2013-05-02 14:41",
+			"last_modified": "2013-05-06 12:53",
 			"platforms": {
 				"*": [
 					{
