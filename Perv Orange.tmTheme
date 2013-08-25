@@ -492,6 +492,22 @@
 						<key>foreground</key><string>#FF6A00</string>
 					</dict>
 			</dict>
+			<dict>
+				<key>name</key><string>GitGutter ignored</string>
+				<key>scope</key><string>markup.ignored.git_gutter</string>
+				<key>settings</key>
+				<dict>
+				    <key>foreground</key><string>#565656</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>GitGutter untracked</string>
+				<key>scope</key><string>markup.untracked.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key><string>#565656</string>
+				</dict>
+			</dict>
 			<!-- The following definitions are for Git (sublime-text-2-git) only -->
 			<dict>
 				<key>name</key><string>Git Modified Line</string>

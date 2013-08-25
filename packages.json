@@ -10,7 +10,7 @@
 			"platforms": {
 				"*": [
 					{
-						"version": "1.3.3",
+						"version": "1.3.4",
 						"url": "https://nodeload.github.com/FlavourSys/Perv-ColorScheme/zip/master"
 					}
 				]
