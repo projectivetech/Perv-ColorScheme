@@ -299,6 +299,22 @@
 						<key>foreground</key><string>#E5E5E5</string>
 					</dict>
 			</dict>
+			<dict>
+				<key>name</key><string>Ruby ERB</string>
+				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html punctuation.section.embedded.ruby</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#ff3322</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Ruby ERB Class</string>
+				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html variable.other.readwrite.instance.ruby</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#8f8fff</string>
+					</dict>
+			</dict>
 			<!-- End  ==  Theme additions for Ruby embedded code in strings ===================== -->
 
 			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 == Start -->
