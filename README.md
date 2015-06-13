@@ -34,13 +34,13 @@ The colors are grouped together based on scopes:
 
 Dark and retro:
 
-![Perv Orange](screenshots/perv-orange.png)
+![Perv Orange (### todo# ###)](screenshots/perv-orange.png)
 
 #### Perv Orange Moonlight
 
 With a darker background and a higher contrast:
 
-![Perv Orange Moonlight](screenshots/perv-orange-moonlight.png)
+![Perv Orange Moonlight (### todo ###)](screenshots/perv-orange-moonlight.png)
 
 The screenshots were made with the [Soda Theme](http://buymeasoda.github.io/soda-theme/) installed--it goes along nicely with the Perv Color Schemes.
 

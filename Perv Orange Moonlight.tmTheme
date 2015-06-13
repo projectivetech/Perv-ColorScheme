@@ -6,6 +6,8 @@
 <!--  Copyright (c) 2012-2013 Mick Hohmann.									  -->
 <!--  Released under the MIT License <http://opensource.org/licenses/MIT>	  -->
 <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  In development: merge changes											  -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
 <!--  Find more Sublime Text stuff at : https://github.com/micck/			  -->
 <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -274,7 +276,7 @@
 			</dict>
 			<!-- End  ==  Theme additions for generic code highlighting ===================== -->
 
-			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-05-04 == Start -->
+			<!-- Theme additions for Ruby & Ruby embedded code in strings - Updated: 2013-05-04 == Start -->
 			<dict>
 				<key>name</key><string>Ruby regexp punctuation</string>
 				<key>scope</key><string>string.regexp.classic.ruby punctuation.definition.string.ruby</string>
@@ -284,7 +286,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Ruby Embedded Source Punctuation</string>
+				<key>name</key><string>Ruby embedded source punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
 				<key>settings</key>
 					<dict>
@@ -292,18 +294,36 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Ruby Embedded Source</string>
+				<key>name</key><string>Ruby embedded source</string>
 				<key>scope</key><string>string source.ruby.embedded.source, string source.ruby.embedded.source punctuation.section.function.ruby</string>
 				<key>settings</key>
 					<dict>
 						<key>foreground</key><string>#E5E5E5</string>
 					</dict>
 			</dict>
-			<!-- End  ==  Theme additions for Ruby embedded code in strings ===================== -->
+<!-- ### New added ERB stuff -->
+<!-- ### Todo: verify colors! -->
+			<dict>
+				<key>name</key><string>Ruby ERB</string>
+				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html punctuation.section.embedded.ruby</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#3355FF</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Ruby ERB Class</string>
+				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html variable.other.readwrite.instance.ruby</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#6680FF</string>
+					</dict>
+			</dict>
+			<!-- End  ==  Theme additions for Ruby & Ruby embedded code in strings ===================== -->
 
 			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 == Start -->
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
+				<key>name</key><string>CSS/SASS/SCSS punctuation</string>
 				<key>scope</key><string>punctuation.section.function.css, punctuation.definition.constant.css, source.scss comment.punctuation</string>
 				<key>settings</key>
 					<dict>
@@ -312,7 +332,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>SASS/SCSS Variables</string>
+				<key>name</key><string>SASS/SCSS variables</string>
 				<key>scope</key><string>variable.parameter.sass, support.constant.property-value.css.sass variable</string>
 				<key>settings</key>
 					<dict>
@@ -320,7 +340,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Keywords</string>
+				<key>name</key><string>CSS/SASS/SCSS keywords</string>
 				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css, keyword.other.default.scss</string>
 				<key>settings</key>
 					<dict>
@@ -328,7 +348,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Functions</string>
+				<key>name</key><string>SASS/SCSS mixins</string>
 				<key>scope</key><string>support.function.name.sass, source.css support.function, support.function.misc.scss</string>
 				<key>settings</key>
 					<dict>
@@ -336,7 +356,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Elements</string>
+				<key>name</key><string>CSS/SASS/SCSS selectors</string>
 				<key>scope</key><string>entity.other.attribute-name</string>
 				<key>settings</key>
 					<dict>
@@ -344,7 +364,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Pseudo Elements</string>
+				<key>name</key><string>CSS/SASS/SCSS pseudo elements</string>
 				<key>scope</key><string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
 				<key>settings</key>
 					<dict>
@@ -353,7 +373,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Property Names</string>
+				<key>name</key><string>CSS/SASS/SCSS properties</string>
 				<key>scope</key><string>support.type.property-name, meta.property-list.css meta.property-name.css</string>
 				<key>settings</key>
 					<dict>
@@ -362,7 +382,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Units</string>
+				<key>name</key><string>CSS/SASS/SCSS units</string>
 				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass, keyword.other.unit.scss</string>
 				<key>settings</key>
 					<dict>
@@ -370,7 +390,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Parameters</string>
+				<key>name</key><string>CSS/SASS/SCSS parameters</string>
 				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter, source.scss variable.parameter</string>
 				<key>settings</key>
 					<dict>
@@ -378,7 +398,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Constant Language</string>
+				<key>name</key><string>CSS/SASS/SCSS property values</string>
 				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant, meta.property-value.scss support.constant</string>
 				<key>settings</key>
 					<dict>
@@ -386,7 +406,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Color Values</string>
+				<key>name</key><string>CSS/SASS/SCSS color values</string>
 				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
 				<key>settings</key>
 					<dict>
@@ -492,6 +512,24 @@
 						<key>foreground</key><string>#FF8C00</string>
 					</dict>
 			</dict>
+<!-- ### New added stuff -->
+			<dict>
+				<key>name</key><string>GitGutter ignored</string>
+				<key>scope</key><string>markup.ignored.git_gutter</string>
+				<key>settings</key>
+				<dict>
+				    <key>foreground</key><string>#565656</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>GitGutter untracked</string>
+				<key>scope</key><string>markup.untracked.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key><string>#565656</string>
+				</dict>
+			</dict>
+
 			<!-- The following definitions are for Git (sublime-text-2-git) only -->
 			<dict>
 				<key>name</key><string>Git Modified Line</string>
