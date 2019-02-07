@@ -1,8 +1,8 @@
-# (Deprecated) Perv Color Schemes #
+# (DEPRECATED) Perv Color Schemes #
 
 ## Note ##
 
-> **This version is deprecated! The new version, rewritten from scratch, is available at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme). This version is kept in the last state, as the new one does look a bit different.**
+> **This version is DEPRECATED! The new version, rewritten from scratch, is available at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme). This version is kept in the last state, as the new one does look a bit different.**
 
 -----------------
 
