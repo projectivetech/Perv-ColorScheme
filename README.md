@@ -1,105 +1,150 @@
-# Perv Color Schemes
+# (Deprecated) Perv Color Schemes #
 
-> **"Actually, as a native from Perv, I prefer to be called a 'Pervect'"**  < *Aahz in Myth Directions* >
+## Note ##
 
-## Introduction
+> **This version is deprecated! The new version, rewritten from scratch, is available at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme). This version is kept in the last state, as the new one does look a bit different.**
 
-The color scheme was started because I was unsatisfied with the limited syntax coloring of various color schemes--mainly missing (more) coloring for Markdown, reStructuredText, Ruby, C/C++ &amp; JSON--and a missing structure of the coloring.  Therefore I created the *Perv Color Scheme* family.  In the meantime the support for syntax highlighting support has been expanded to more languages.  Currently the scheme supports the following syntax highlighters and packages (look at the [Update](#update-history) section for more details):
+-----------------
 
-1. `Markdown` and `GitHub Flavored Markdown` (through knockdown)
-2. `reStructuredText` and `reStructuredTextExtended`
-3. `Ruby`
-4. `C/C++`
-5. `CSS` &amp; `SASS/SCSS`
-6. `JSON` (as are the Sublime Text settings) &amp; `YAML`
-7. `Git`, `GitGutter` &amp; `DIFF`
-8. `SublimeLinter`
+> "**Actually, as a native from Perv, I prefer to be called a '_Pervect_'**" <_Aahz:japanese_ogre: in [Myth Directions][01]_>
 
+[![release badge]][release] [![sublime text badge]][sublime-text] [![Package Control](https://packagecontrol.herokuapp.com/downloads/Perv%20-%20Color%20Scheme.svg?color=50C32E)](https://packagecontrol.io/packages/Perv%20-%20Color%20Scheme) [![licence badge]][licence] [![stars badge]][repo] [![issues badge]][issues] [![paypal badge]][paypal]
 
-## The Color Schemes
+## Introduction ##
 
-### Perv Orange Family
+This colour schemes are created with two goals in mind: covering as many syntax (highlighters) as possible and using logical and consistent colour palette(s) (throughout all different syntax).
 
-The colors are grouped together based on scopes:
+This project started a couple of years back, when there were nearly to none colour schemes, which covered the syntax I was interested in (`Markdown`, `ReStructuredText`, `Ruby`, `JSON`, `XML`).  Heck, the majority of the available colour schemes back then, even didn't highlight the settings (`JSON`) or tmTheme files (`XML`).
 
-+ **Comments**: Grey
-+ **Classes & Objects**: Variations of Blue
-+ **Functions**: Variations of Red
-+ **Keywords & Tags**: Variations of Orange
-+ **Storages**: Variations of Yellow
-+ **Strings & Constants**: Variations of green
+Currently the scheme(s) supports the following syntax highlighters and packages (please, check the [Update](#update-history) section for more details about new additions and changes):
 
+|         Syntax        |                                    Package                                    |         Syntax        |           Package            |
+| --------------------: | :---------------------------------------------------------------------------- | --------------------: | :--------------------------- |
+|     `Markdown`, `GFM` | [Markdown Editing][12] (recommended), [knockdown][11], Default                |    `reStructuredText` | Default, [ReST extended][13] |
+| `CSS`, `SCSS`, `SASS` | Default, [SCSS][15], [Syntax Highlighting for SASS][16], [SASS][17]           |        `JSON`, `YAML` | Default                      |
+|         `Ruby`, `ERB` | Default                                                                       |              `Python` | Default                      |
+|         `Git`, `Diff` | [Git][20], [Sublime Git][21], [Git Gutter][22], [SubliMerge Pro][23], Default |              `Linter` | [Sublime Linter][24]         |
+|              `BBCode` | [BBCode][30]                                                                  |               `C/C++` | Default                      |
+|              `Config` | [Generic Config][26], [Dotfile][27], [nginx][28]                              | `Bracket Highlighter` | [Bracket Highlighter][29]    |
 
-#### Perv Orange
+## The Perv Color Schemes ##
+
+### Perv Orange :tangerine: Family ###
+
+The colours are grouped together based on scopes:
+
+- **Comments & Selections**: Grey
+- **Classes & Objects**: Variations of Blue
+- **Functions**: Variations of Red
+- **Keywords & Tags**: Variations of Orange
+- **Storages**: Variations of Yellow
+- **Strings & Constants**: Variations of green
+
+#### Perv Orange ####
 
 Dark and retro:
+![Perv Orange][img1]
 
-![Perv Orange](screenshots/perv-orange.png)
-
-#### Perv Orange Moonlight
+#### Perv Orange Moonlight ####
 
 With a darker background and a higher contrast:
+![Perv Orange Moonlight][img2]
 
-![Perv Orange Moonlight](screenshots/perv-orange-moonlight.png)
+The screenshots were made with [Soda Theme][50] installed--nice addition to the _Color Schemes - Perv_.
 
-The screenshots were made with the [Soda Theme](http://buymeasoda.github.io/soda-theme/) installed--it goes along nicely with the Perv Color Schemes.
+## Advanced usage ##
 
-## Advanced usage
+There are so many different personal tastes that it is nearly impossible to make one colour scheme, which satisfies even those guys, who's colour taste is the same.  Some guys don't like _italics_ or **bold** font faces, other's dislike the selection colour.  You can edit the colour scheme to fit your personal taste.
 
-There are so many different personal tastes, that it is nearly impossible to make one color scheme, which satisfies even those guys, who's color taste is the same.  Some guys don't like *italics* or **bold** font faces, other's are using line highlight.  As it is currently impossible to create "switches" for specific effects in color schemes and as it is very easy to edit those effects to your personal liking, I added a couple of comments in my scheme files to help you out.
+> **Note:** As of [Sublime Text 3][52] packages are normally installed as an archive with the suffix `.sublime-package`, the below changes cannot be done directly.  You either need to install the package through `Add Repository` in [Package Control][53], by using Git to clone the repository or by extracting the archive.
 
-In order to edit the specific scheme file, you want to use/amend, please select the `Preferences -> Browse Packages` menu entry in Sublime Text.  That will open the Packages directory either in the "Finder" (on Mac OS X) or in the "Explorer" (on Windows).  Go into the "Perv - Color Scheme" directory and drag'n'drop the color scheme file, which you would like to use, to your Sublime Text editor.  After the file is loaded in the editor do the following regarding what you would like to change:
+In order to edit the specific scheme file, you want to amend, please select the `Preferences -> Browse Packages` menu entry in [Sublime Text][51].  That will open the packages directory either in the "Finder" (on Mac OS X), "_flavoured_ file explorer" (on Linux) or in "Explorer" (on Windows).  Go into the "Color Schemes - Perv" directory and drag'n'drop the colour scheme file, which you would like to use, to your [Sublime Text][51] editor.  After the file is loaded, do the following depending on the desired change:
 
-+ *Using Line highlight*: search for "highlight_line". There are two "lineHighlight" entries in the file (one is commented out). Just comment the currently active line out and uncomment the other line.
-+ *Switch of italic or bold font faces*: search for either "italic" or "bold" in the file.  Just comment the line below the comment/instruction out.  Rinse and repeat for all font faces you want to remove.
+- *Switch of italic or bold font faces*: search for either "italic" or "bold" in the file.  Just comment the line you find, rinse and repeat for all font faces you want to remove.
+- *Change the gutter and line highlight colour*: search for "lineHighlight" and either change the colour value to one to your liking or use one of the available presets.
 
-> **Hint:** as you're already using Sublime Text -- commenting and uncommenting is as easy as a key-press: Mac: <kbd>&#x2318;</kbd>+<kbd>/</kbd> and for the PCs: <kbd>CTRL</kbd>+<kbd>/</kbd>)
+> **Hint:** as you're already using [Sublime Text][51]--commenting and uncommenting is as easy as a key-press: Mac: <kbd>&#x2318;</kbd>+<kbd>/</kbd> and for the PCs: <kbd>CTRL</kbd>+<kbd>/</kbd>)
 
+## Installation ##
 
-## Installation
+### Sublime Text ###
 
-### Sublime Text
+For the [Sublime Text][51] editor the schemes can be installed easily using [Package Control][53] and searching for the `Color Schemes - Perv` package in the official repository.
 
-For the Sublime Text editor the schemes can be installed easily by using [Package Control](http://wbond.net/sublime_packages/package_control) to install the 'Perv Color Schemes' package from the official repository.
+Otherwise, first you need to locate your [Sublime Text][51] packages directory--use the `Preferences -> Browse Packages` menu from within [Sublime Text][51], if you don't know where the directory is located.
 
-Otherwise, first find your Sublime Text packages directory, you can find this by using the `Preferences -> Browse Packages` menu from within Sublime Text.
+Now either create a `Color Schemes - Perv` folder within this directory, and copy the contents of the GitHub repository, or clone the repository using the Git software within the packages directory:
 
-Now either create a `Perv -  Color Scheme` folder within this directory, and copy the contents of the GitHub repository inside, or clone the repository using the GIT software within the packages directory :
+    git clone https://github.com/FlavourSys/Perv-ColorScheme "Color Schemes - Perv"
 
-    git clone https://github.com/FlavourSys/Perv-ColorScheme "Perv - Color Scheme"
+Now simply use the `"Color Scheme" -> "Color Schemes - Perv" -> "Perv YOUR FLAVOUR"` option of your preferences menu to switch between the schemes & enjoy!
 
-Now simply use the `Color Scheme -> Perv - Color Scheme` option of your preferences menu to switch between the schemes & enjoy!
+## Update history ##
 
+> **This is the last version before the rewrite. Please look at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme) for future versions.**
 
-## Update history
+### Version 1.4 ###
 
-### Version 1.3
+- _major change:_ complete overhaul of the `Markdown (&amp; GFM)` syntax highlighting.  I added support for [Markdown Editing][12] including: background colour for inline code, fenced code and block quotes; striped a lot of colours (e. g. all header texts and link texts are white now); added support for ~~strike-through~~ (as there is no underline or strike-through font style in [Sublime Text][51]--it is a text editor and not a text processor after all :expressionless:--a reddish background colour was used).  Overall `Markdown` should now be easier to write and read.
+- _major change:_ added support for [BBCode][30] syntax highlighting
+- _major change:_ added basic support for [Bracket Highlighter][29]
+- _change:_ the colouring of parenthesis in  `JSON`, `XML` and `HTML` files was changed to reflect the tag/name for easier readability
+- _changed:_ the selection background colouring (to make it better readable in all different syntax scopes)
+- _changed:_ the line highlighting colour, to make the icons in the Gutter used by different packages ([Bracket Highlighter][29], [Git Gutter][22], [Color Highlighter][32], etc.) better visible--additionally that also solved the problem with the `"highlight_line": true,` setting
+- _change:_ merged [Git Gutter][22] additions from @jisaacks
+- _change:_ merged `ERB` additions from @Kaboofa
+- _minor change:_ in order to decrease the size of the package, I moved the screenshots to a different location.
 
-1. _major change_: added new Orange color scheme: **"Moonlight"**
-2. _major change_: added support for **"CSS"**, &amp; **"SASS/SCSS"** (through the packages [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass), [SCSS](https://github.com/kuroir/SCSS.tmbundle) and [Sass](https://github.com/nathos/sass-textmate-bundle))
-3. _major change_: added support for **"Markdown"** (Standard Sublime Text syntax highlighter) and **"GitHub Flavored Markdown"** through the package [knockdown](https://github.com/aziz/knockdown) (which also adds more highlighting for the standard Markdown syntax to any Markdown files)
-4. _major change_: added support for **"reStructuredText"** (Standard Sublime Text syntax highlighter) and updated coloring for [reStructuredTextExtended](https://github.com/jhaubrich/Jesse-s-Sublime-Mods)
-5. _major change_: changed highlighting for **"Git"** &amp; **"DIFF"** output/files, added support for **"GitGutter"**
-6. _major change_: regarding "line highlighting": it is nearly impossible to have one color which works with `highlight_line` turned on or off.  And as I don't use that, I added a second in the tmTheme file for those who do use `highlight_line`. See above for a short description how to change the "line highlight" color
-7. _change_: removed *italics* from "function arguments", but they are still rendered in color
-8. _change_: updated Ruby embedded source code highlighting
-9. _change_: updated JSON highlighting
-10. _change_: integrated YAML highlighting
-11. _minor change_: updated the SublimeLinter colors
-12. _minor change_: adjusted the bracket (underline) colors to fit the "Orange" scheme
+## Thanks ##
 
+A very big thanks goes to @daylerees :bow: for the work he has done with his [Colour Schemes][91].  His Laravel Dark scheme was used as a starting point for this colour scheme, as well as part of his readme file :sunglasses:.
 
-## Contribute
+Also I would like to thank my friends at [FlavourSys][92]--if you're working in the :video_camera: industry, you _need_ to see what they are doing--for their valued input and comments--as well as the kick in the b:dizzy_face: to push to :octocat:.
 
-If you find any problems, please don't hesitate to open an issue.  And if you want to make an improvement, please don't hesitate to fork and request a pull.
+*Always have fun:sunny: in what you're doing and* "DON'T PANIC"...:rocket:
 
+… **Enjoy**
 
-## Thanks!
+<!-- reference section -->
 
-A very big thanks goes to [Dayle Rees](https://github.com/daylerees) for the work he has done with his [Color Schemes](https://github.com/daylerees/colour-schemes).  I used his Laravel Dark scheme as a skeleton for this color scheme, as well as I used part of his readme.
+[01]: https://en.wikipedia.org/wiki/Myth_Directions
+[release]: https://github.com/FlavourSys/Perv-ColorScheme/releases
+[sublime-text]: http://www.sublimetext.com/
+[licence]: <LICENSE.txt>
+[repo]: https://github.com/FlavourSys/Perv-ColorScheme
+[issues]: https://github.com/FlavourSys/Perv-ColorScheme/issues
+[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3BWGA5FT2SY6
 
-Also I would like to thank my colleagues at [FlavourSys](http://www.flavoursys.com) for their valued input and comments--as well as the kick in the b... to push to GitHub.
+[release badge]: https://img.shields.io/github/release/FlavourSys/perv-colorscheme.svg
+[sublime text badge]: https://img.shields.io/badge/Sublime%20Text-v2%2C%20v3-green.svg
+[licence badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[stars badge]: https://img.shields.io/github/stars/FlavourSys/Perv-ColorScheme.svg
+[issues badge]: https://img.shields.io/github/issues/FlavourSys/Perv-ColorScheme.svg
+[paypal badge]: https://img.shields.io/badge/paypal-donate-ff69b4.svg
 
-*Always have fun in what you're doing and* "DON'T PANIC"...
-
-**Enjoy!**
+[11]: https://packagecontrol.io/packages/knockdown
+[12]: https://packagecontrol.io/packages/MarkdownEditing
+[13]: https://github.com/jhaubrich/Jesse-s-Sublime-Mods "abandoned"
+[15]: https://packagecontrol.io/packages/SCSS
+[16]: https://packagecontrol.io/packages/Syntax%20Highlighting%20for%20Sass
+[17]: https://packagecontrol.io/packages/Sass
+[20]: https://packagecontrol.io/packages/Git
+[21]: https://www.sublimegit.net/
+[22]: https://packagecontrol.io/packages/GitGutter
+[23]: http://www.sublimerge.com/
+[24]: http://www.sublimelinter.com/
+[26]: https://packagecontrol.io/packages/Generic%20Config
+[27]: https://packagecontrol.io/packages/Dotfiles%20Syntax%20Highlighting
+[28]: https://packagecontrol.io/packages/nginx
+[29]: https://packagecontrol.io/packages/BracketHighlighter
+[30]: https://packagecontrol.io/packages/BBCode%20Syntax
+[31]: https://packagecontrol.io/packages/TWiki
+[32]: https://packagecontrol.io/packages/Color%20Highlighter
+[img1]: https://raw.githubusercontent.com/micck/miccks-packages/master/screenshots/perv/perv-orange.png
+[img2]: https://raw.githubusercontent.com/micck/miccks-packages/master/screenshots/perv/perv-orange-moonlight.png
+[50]: http://buymeasoda.github.io/soda-theme/
+[51]: http://www.sublimetext.com/
+[52]: http://www.sublimetext.com/3
+[53]: https://packagecontrol.io/installation
+[91]: https://github.com/daylerees/colour-schemes
+[92]: http://www.flavoursys.com

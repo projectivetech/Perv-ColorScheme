@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  ======================================================================  -->
-<!--  Perv Orange Color scheme - version 1.3.3								  -->
+<!--  Perv Orange Color scheme - version 1.4.0								  -->
 <!--  ======================================================================  -->
 <!--  A Sublime Text 2 & 3 / Textmate scheme.								  -->
 <!--  Copyright (c) 2012-2013 Mick Hohmann.									  -->
 <!--  Released under the MIT License <http://opensource.org/licenses/MIT>	  -->
+<!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
+<!--  In development: merge changes											  -->
 <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
 <!--  Find more Sublime Text stuff at : https://github.com/micck/			  -->
 <!--  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
@@ -274,7 +276,7 @@
 			</dict>
 			<!-- End  ==  Theme additions for generic code highlighting ===================== -->
 
-			<!-- Theme additions for Ruby embedded code in strings - Updated: 2013-05-04 == Start -->
+			<!-- Theme additions for Ruby & Ruby embedded code in strings - Updated: 2013-05-04 == Start -->
 			<dict>
 				<key>name</key><string>Ruby regexp punctuation</string>
 				<key>scope</key><string>string.regexp.classic.ruby punctuation.definition.string.ruby</string>
@@ -284,7 +286,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Ruby Embedded Source Punctuation</string>
+				<key>name</key><string>Ruby embedded source punctuation</string>
 				<key>scope</key><string>string punctuation.section.embedded.ruby</string>
 				<key>settings</key>
 					<dict>
@@ -292,7 +294,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>Ruby Embedded Source</string>
+				<key>name</key><string>Ruby embedded source</string>
 				<key>scope</key><string>string source.ruby.embedded.source, string source.ruby.embedded.source punctuation.section.function.ruby</string>
 				<key>settings</key>
 					<dict>
@@ -304,7 +306,7 @@
 				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html punctuation.section.embedded.ruby</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#ff3322</string>
+						<key>foreground</key><string>#FF2211</string>
 					</dict>
 			</dict>
 			<dict>
@@ -312,14 +314,14 @@
 				<key>scope</key><string>text.html.ruby source.ruby.rails.embedded.html variable.other.readwrite.instance.ruby</string>
 				<key>settings</key>
 					<dict>
-						<key>foreground</key><string>#6680ff</string>
+						<key>foreground</key><string>#6680FF</string>
 					</dict>
 			</dict>
-			<!-- End  ==  Theme additions for Ruby embedded code in strings ===================== -->
+			<!-- End  ==  Theme additions for Ruby & Ruby embedded code in strings ===================== -->
 
 			<!-- Theme additions for CSS, SASS/SCSS - Created: 2013-04-25 == Start -->
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Punctuation</string>
+				<key>name</key><string>CSS/SASS/SCSS punctuation</string>
 				<key>scope</key><string>punctuation.section.function.css, punctuation.definition.constant.css, source.scss comment.punctuation</string>
 				<key>settings</key>
 					<dict>
@@ -328,7 +330,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>SASS/SCSS Variables</string>
+				<key>name</key><string>SASS/SCSS variables</string>
 				<key>scope</key><string>variable.parameter.sass, support.constant.property-value.css.sass variable</string>
 				<key>settings</key>
 					<dict>
@@ -336,7 +338,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Library Functions</string>
+				<key>name</key><string>CSS/SASS/SCSS keywords</string>
 				<key>scope</key><string>keyword.control.at-rule, keyword.other.important.css, keyword.other.default.scss</string>
 				<key>settings</key>
 					<dict>
@@ -344,7 +346,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Function Names</string>
+				<key>name</key><string>SASS/SCSS mixins</string>
 				<key>scope</key><string>support.function.name.sass, source.css support.function, support.function.misc.scss</string>
 				<key>settings</key>
 					<dict>
@@ -352,7 +354,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Elements</string>
+				<key>name</key><string>CSS/SASS/SCSS selectors</string>
 				<key>scope</key><string>entity.other.attribute-name</string>
 				<key>settings</key>
 					<dict>
@@ -360,7 +362,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Pseudo Elements</string>
+				<key>name</key><string>CSS/SASS/SCSS pseudo elements</string>
 				<key>scope</key><string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element</string>
 				<key>settings</key>
 					<dict>
@@ -369,7 +371,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Property Names</string>
+				<key>name</key><string>CSS/SASS/SCSS properties</string>
 				<key>scope</key><string>support.type.property-name, meta.property-list.css meta.property-name.css</string>
 				<key>settings</key>
 					<dict>
@@ -378,7 +380,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Units</string>
+				<key>name</key><string>CSS/SASS/SCSS units</string>
 				<key>scope</key><string>keyword.other.unit.css, constant.other.unit.sass, keyword.other.unit.scss</string>
 				<key>settings</key>
 					<dict>
@@ -386,7 +388,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Strings</string>
+				<key>name</key><string>CSS/SASS/SCSS parameters</string>
 				<key>scope</key><string>source.css variable.parameter, source.sass variable.parameter, source.scss variable.parameter</string>
 				<key>settings</key>
 					<dict>
@@ -394,7 +396,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Constant Language</string>
+				<key>name</key><string>CSS/SASS/SCSS property values</string>
 				<key>scope</key><string>meta.property-value.css support.constant, source.sass support.constant, meta.property-value.scss support.constant</string>
 				<key>settings</key>
 					<dict>
@@ -402,7 +404,7 @@
 					</dict>
 			</dict>
 			<dict>
-				<key>name</key><string>CSS/SASS/SCSS Color Values</string>
+				<key>name</key><string>CSS/SASS/SCSS color values</string>
 				<key>scope</key><string>constant.other.color.rgb-value.css, constant.other.rgb-value.sass, constant.other.color.rgb-value.scss</string>
 				<key>settings</key>
 					<dict>
@@ -713,6 +715,71 @@
 			</dict>
 			<!-- End  ==  Theme additions for reStructuredText and Sphinx ===================== -->
 
+			<!-- Theme additions for BBCode - Updated: 2013-04-27 == Start -->
+			<dict>
+				<key>name</key><string>BBCode link targets</string>
+				<key>scope</key><string>text.bbcode markup.underline</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Underline fontface							=== -->
+						<key>fontStyle</key><string>underline</string>
+						<key>foreground</key><string>#A6A6FF</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode tags</string>
+				<key>scope</key><string>text.bbcode meta.tag.any.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>fontStyle</key><string></string>
+						<key>foreground</key><string>#FF7F00</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode links</string>
+				<key>scope</key><string>meta.tag.value.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#E5A373</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode code tag</string>
+				<key>scope</key><string>text.bbcode meta.tag.code</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FF7F00</string>
+						<key>background</key><string>#211E1E</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode embedded source code</string>
+				<key>scope</key><string>text.bbcode source, text.html.embedded.bbcode</string>
+				<key>settings</key>
+					<dict>
+						<key>background</key><string>#2A282A</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode bolds</string>
+				<key>scope</key><string>text.bbcode markup.bold</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Bold fontface							=== -->
+						<key>fontStyle</key><string>bold</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>BBCode italics</string>
+				<key>scope</key><string>text.bbcode markup.italic</string>
+				<key>settings</key>
+					<dict>
+<!-- ===						Italics fontface						=== -->
+						<key>fontStyle</key><string>italic</string>
+					</dict>
+			</dict>
+			<!-- End  ==  Theme additions for BBCode ===================== -->
+
 			<!-- Theme additions for SublimeLinter - Updated: 2013-04-26 == Start -->
 			<dict>
 				<key>name</key><string>SublimeLinter Annotations</string>
@@ -774,6 +841,25 @@
 					</dict>
 			</dict>
 			<!-- End  ==  Theme additions for SublimeLinter ===================== -->
+
+			<!-- Theme additions for BracketHighlighter - Added: 2013-04-29 == Start -->
+			<dict>
+				<key>name</key><string>BracketHighlighter default</string>
+				<key>scope</key><string>brackethighlighter.default</string>
+				<key>settings</key>
+					<dict>
+						<key>foreground</key><string>#FDCA49</string>
+					</dict>
+			</dict>
+			<dict>
+				<key>name</key><string>Bracket unmatched</string>
+				<key>scope</key><string>brackethighlighter.unmatched</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key><string>#FF2211</string>
+				</dict>
+			</dict>
+			<!-- End  ==  Theme additions for BracketHighlighter ===================== -->
 		</array>
 	<key>uuid</key><string>FFC5C692-05C6-4E8A-820C-AE457C1FAAE2</string>
 </dict>
