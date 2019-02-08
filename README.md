@@ -2,13 +2,13 @@
 
 ## Note ##
 
-> **This version is DEPRECATED! The new version, rewritten from scratch, is available at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme). This version is kept in the last state, as the new one does look a bit different.**
+> **This version is DEPRECATED! The new version, rewritten from scratch, is available at [Color Scheme - Perv](https://github.com/micck/perv-colorscheme). This version is kept in the last state, as the new one does look a bit different. Also, if you have Sublime Text with a version <=3149, please keep this version.**
 
 -----------------
 
 > "**Actually, as a native from Perv, I prefer to be called a '_Pervect_'**" <_Aahz:japanese_ogre: in [Myth Directions][01]_>
 
-[![release badge]][release] [![sublime text badge]][sublime-text] [![Package Control](https://packagecontrol.herokuapp.com/downloads/Perv%20-%20Color%20Scheme.svg?color=50C32E)](https://packagecontrol.io/packages/Perv%20-%20Color%20Scheme) [![licence badge]][licence] [![stars badge]][repo] [![issues badge]][issues] [![paypal badge]][paypal]
+[![release badge]][release] [![sublime text badge]][sublime-text] [![Package Control](https://packagecontrol.herokuapp.com/downloads/Perv%20-%20Color%20Scheme.svg?color=50C32E)](https://packagecontrol.io/packages/Perv%20-%20Color%20Scheme) [![licence badge]][licence] [![stars badge]][repo] [![issues badge]][issues]
 
 ## Introduction ##
 
@@ -113,7 +113,6 @@ Also I would like to thank my friends at [FlavourSys][92]--if you're working in 
 [licence]: <LICENSE.txt>
 [repo]: https://github.com/FlavourSys/Perv-ColorScheme
 [issues]: https://github.com/FlavourSys/Perv-ColorScheme/issues
-[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P3BWGA5FT2SY6
 
 [release badge]: https://img.shields.io/github/release/FlavourSys/perv-colorscheme.svg
 [sublime text badge]: https://img.shields.io/badge/Sublime%20Text-v2%2C%20v3-green.svg

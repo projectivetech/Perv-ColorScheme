@@ -1,4 +1,4 @@
-# Perv Color Schemes
+# DEPRECATED Perv Color Schemes
 
 > **"Actually, as a native from Perv, I prefer to be called a 'Pervect'"**  < *Aahz in Myth Directions* >
 
@@ -6,6 +6,7 @@ Thank you for installing the `Perv Color Schemes`.  I hope you enjoy them.
 
 Currently there are only two variants: `Orange` and `Orange Moonlight`, but more will come eventually.
 
+> **This version is deprecated. If you've Sublime Text version <=3149, please look for `Color Scheme - Perv`!**
 
 ## Advanced usage
 
